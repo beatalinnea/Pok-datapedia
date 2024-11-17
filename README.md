@@ -1,4 +1,4 @@
-# Pokédatapedia
+# Pokédatapedia - Web for Data Science
 
 ## About
 
