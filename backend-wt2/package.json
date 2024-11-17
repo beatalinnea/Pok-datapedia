@@ -1,0 +1,28 @@
+{
+  "name": "backend-wt2",
+  "version": "1.0.0",
+  "description": "Assignment WT2 - backend",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --inspect -r dotenv/config src/server.js"
+  },
+  "author": "Beata Eriksson <be222gr@student.lnu.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.10",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0",
+    "shaman": "^0.3.2",
+    "skmeans": "^0.11.3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "eslint:recommended", "plugin:react/recommended"
+  ],
+  "rules": {
+      "react/no-unknown-property": [
+        "error",
+        {
+          "ignore": ["css", "category"]
+        }
+      ],
+      "react/prop-types": "off" ,
+      "react-hooks/exhaustive-deps": "off" // Disable the exhaustive-deps rule
+    }
+
+}
